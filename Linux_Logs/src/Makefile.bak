@@ -1,0 +1,1 @@
+ arm-linux-gnueabihf-gcc debug.c main.c -o log-test zlog-x9.a -lpthread
