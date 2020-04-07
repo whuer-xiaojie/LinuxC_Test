@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\polarssl">
+      <UniqueIdentifier>{5fcc02ed-afae-42f2-9c2e-de929858b31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mbedtls">
+      <UniqueIdentifier>{19ea020c-5380-43c6-bb8a-7b53e28a0ce5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\polarssl\aes.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\aesni.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\arc4.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\asn1.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\asn1write.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\base64.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\bignum.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\blowfish.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\bn_mul.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\camellia.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ccm.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\certs.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\check_config.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\cipher.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\cipher_wrap.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\compat-1.2.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\config.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ctr_drbg.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\debug.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\des.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\dhm.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ecdh.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ecdsa.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ecp.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\entropy.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\entropy_poll.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\error.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\gcm.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\havege.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\hmac_drbg.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\md.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\md_wrap.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\md2.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\md4.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\md5.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\memory.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\memory_buffer_alloc.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\net.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\oid.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\openssl.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\padlock.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pbkdf2.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pem.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pk.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pk_wrap.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pkcs5.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pkcs11.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\pkcs12.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\platform.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ripemd160.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\rsa.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\sha1.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\sha256.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\sha512.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ssl.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ssl_cache.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\ssl_ciphersuites.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\threading.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\timing.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\version.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\x509.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\x509_crl.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\x509_crt.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\x509_csr.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\polarssl\xtea.h">
+      <Filter>头文件\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\aes.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\aesni.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\arc4.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\aria.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\asn1.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\asn1write.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\base64.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\bignum.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\blowfish.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\bn_mul.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\camellia.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ccm.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\certs.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\chacha20.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\chachapoly.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\check_config.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\cipher.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\cipher_internal.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\cmac.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\compat-1.3.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\config.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ctr_drbg.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\debug.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\des.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\dhm.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ecdh.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ecdsa.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ecjpake.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ecp.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ecp_internal.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\entropy.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\entropy_poll.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\error.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\gcm.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\havege.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\hkdf.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\hmac_drbg.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\md.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\md_internal.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\md2.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\md4.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\md5.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\memory_buffer_alloc.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\net.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\net_sockets.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\nist_kw.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\oid.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\padlock.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\pem.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\pk.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\pk_internal.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\pkcs5.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\pkcs11.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\pkcs12.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\platform.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\platform_time.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\platform_util.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\poly1305.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ripemd160.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\rsa.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\rsa_internal.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\sha1.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\sha256.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\sha512.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ssl.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ssl_cache.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ssl_ciphersuites.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ssl_cookie.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ssl_internal.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\ssl_ticket.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\threading.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\timing.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\version.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\x509.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\x509_crl.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\x509_crt.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\x509_csr.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mbedtls\xtea.h">
+      <Filter>头文件\mbedtls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\testAes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
